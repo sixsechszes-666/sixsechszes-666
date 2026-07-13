@@ -37,22 +37,32 @@
 
 ### 📌 Featured projects
 
-<p align="center">
-  <a href="https://github.com/sixsechszes-666/luck-aio-main">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=sixsechszes-666&repo=luck-aio-main&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
-  <a href="https://github.com/sixsechszes-666/dota2-multibox-orchestrator">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=sixsechszes-666&repo=dota2-multibox-orchestrator&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
-</p>
+**[marketcast](https://github.com/sixsechszes-666/marketcast)** - live Polymarket data into AI-written X posts + auto-rendered 1:1 dashboard videos. Reverse-engineered X GraphQL API over `curl_cffi` (TLS impersonation), resilient multi-LLM layer with fallback, fact-grounding against hallucinated numbers, tests + CI.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![curl_cffi](https://img.shields.io/badge/curl__cffi-073551?style=flat-square&logo=curl&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![multi-LLM](https://img.shields.io/badge/multi--LLM-D97757?style=flat-square)
+![ffmpeg](https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+
+**[luck-aio-main](https://github.com/sixsechszes-666/luck-aio-main)** - async multi-account browser-automation platform. Bounded-concurrency worker pool, anti-detect, captcha & Cloudflare bypass, on-chain settlement on Solana, live React dashboard.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+**[dota2-multibox-orchestrator](https://github.com/sixsechszes-666/dota2-multibox-orchestrator)** - multi-instance desktop automation. OpenCV template matching, hardware-level input, YAML scenario engine, cross-instance Google Sheets sync.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![pywin32](https://img.shields.io/badge/pywin32-0078D6?style=flat-square&logo=windows&logoColor=white)
+![gspread](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
 
 ---
 
 ### 🔒 More projects (private, available on request)
-
-**MarketCast** - turns live Polymarket prediction-market data into AI-written X posts with recorded 1:1 video dashboards.
-End-to-end pipeline: reverse-engineered X (Twitter) GraphQL API, multi-LLM generation with guardrails against hallucinated numbers, automated dashboard recording.
-`Python` · `curl_cffi` · `Playwright` · `multi-LLM` · `ffmpeg`
 
 **Tourism Information Ecosystem** - full-stack regional tourism platform (MVP) with three contours: B2C portal, B2B partner cabinets, and a B2G management panel over a single shared database and API.
 `Next.js 14` · `TypeScript` · `Prisma` · `Tailwind` · `MapLibre GL` · `NextAuth`
