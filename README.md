@@ -60,6 +60,14 @@
 ![pywin32](https://img.shields.io/badge/pywin32-0078D6?style=flat-square&logo=windows&logoColor=white)
 ![gspread](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
 
+**[hh_helper](https://github.com/sixsechszes-666/hh_helper)** - async hh.ru auto-apply assistant: LLM vacancy scoring against your resume, anti-detect browser (cloakbrowser), human-in-the-loop Telegram confirmations, safe dry-run.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white)
+![cloakbrowser](https://img.shields.io/badge/cloakbrowser-111111?style=flat-square)
+![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM%20scoring-D97757?style=flat-square)
+
 ---
 
 ### 🔒 More projects (private, available on request)
