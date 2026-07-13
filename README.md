@@ -76,6 +76,12 @@
 ![aiogram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 ![LLM](https://img.shields.io/badge/Claude%20Haiku-D97757?style=flat-square)
 
+**[duck_bridge](https://github.com/sixsechszes-666/duck_bridge)** - local HTTP bridge that exposes free duck.ai models (Claude Haiku, GPT) as a simple `POST /ask` endpoint. Auto-refreshes the short-lived session token with a stealth browser and queues requests, so it behaves like a stable local LLM API.
+<br/>
+![Node](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![CloakBrowser](https://img.shields.io/badge/CloakBrowser-111111?style=flat-square)
+![API](https://img.shields.io/badge/local%20API-1f6feb?style=flat-square)
+
 ---
 
 ### 🔒 More projects (private, available on request)
