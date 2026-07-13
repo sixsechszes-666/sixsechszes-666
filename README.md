@@ -68,6 +68,14 @@
 ![aiogram](https://img.shields.io/badge/aiogram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
 ![LLM](https://img.shields.io/badge/LLM%20scoring-D97757?style=flat-square)
 
+**[x-reply-bot](https://github.com/sixsechszes-666/x-reply-bot)** - persona-driven X (Twitter) auto-reply &amp; auto-follow bot: reverse-engineered X API (curl_cffi TLS), CloakBrowser anti-detect, human-like pacing and LLM-written replies. Dashboard + Telegram + CLI.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![curl_cffi](https://img.shields.io/badge/curl__cffi-073551?style=flat-square&logo=curl&logoColor=white)
+![CloakBrowser](https://img.shields.io/badge/CloakBrowser-111111?style=flat-square)
+![aiogram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)
+![LLM](https://img.shields.io/badge/Claude%20Haiku-D97757?style=flat-square)
+
 ---
 
 ### 🔒 More projects (private, available on request)
