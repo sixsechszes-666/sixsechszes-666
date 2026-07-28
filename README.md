@@ -8,7 +8,7 @@
 <p align="center">
   Python developer specializing in <b>web scraping</b>, <b>anti-bot bypass</b>,
   <b>browser automation</b> and <b>AI / LLM integrations</b>.<br/>
-  I take projects from idea to a working, self-contained solution - and ship fast with AI dev tools every day.
+  I take projects from idea to a working, self-contained solution.
 </p>
 
 <p align="center">
