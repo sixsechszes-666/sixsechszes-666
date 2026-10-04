@@ -1,13 +1,13 @@
 <h1 align="center">⚙️ Automation &amp; AI Engineer</h1>
-<p align="center"><i>Web scraping · Anti-detect · Browser automation · LLM integrations</i></p>
+<p align="center"><i>Web scraping · Anti-detect · Browser automation · LLM integrations · On-chain data</i></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&center=true&vCenter=true&width=640&color=58A6FF&lines=Python+developer+for+automation+%26+data;Anti-bot+bypass:+Cloudflare,+captcha,+fingerprinting;LLM+pipelines:+Claude,+GPT,+Gemini,+Kimi,+GLM;From+idea+to+a+working+solution,+solo" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&center=true&vCenter=true&width=640&color=58A6FF&lines=Python+developer+for+automation+%26+data;Anti-bot+bypass:+Cloudflare,+captcha,+fingerprinting;LLM+pipelines:+Claude,+GPT,+Gemini,+Kimi,+GLM;On-chain+indexing+%26+real-time+dashboards;From+idea+to+a+working+solution,+solo" />
 </p>
 
 <p align="center">
   Python developer specializing in <b>web scraping</b>, <b>anti-bot bypass</b>,
-  <b>browser automation</b> and <b>AI / LLM integrations</b>.<br/>
+  <b>browser automation</b>, <b>AI / LLM integrations</b> and <b>on-chain data</b>.<br/>
   I take projects from idea to a working, self-contained solution.
 </p>
 
@@ -28,6 +28,7 @@
 🕸️  Web scraping & data collection   ->  Cloudflare / captcha / behavioral defenses, private API reverse-engineering
 🤖  Browser automation & anti-detect  ->  Playwright, Patchright, Camoufox, ixBrowser, proxies, multi-account
 🧠  AI / LLM integrations             ->  Claude, GPT, Gemini, Kimi, GLM - agents, prompt engineering, pipelines
+⛓️  On-chain data & dashboards        ->  EVM indexing over JSON-RPC, launchpad and curve analytics, real-time UIs
 ⚙️  Automation under the hood         ->  Telegram bots, async worker pools, reports, service integrations
 🖥️  Computer vision & desktop         ->  OpenCV template matching, hardware input, multi-instance orchestration
 🌐  Web                               ->  React, TypeScript, Next.js for fast MVPs and dashboards
@@ -36,6 +37,19 @@
 ---
 
 ### 📌 Featured projects
+
+**[ponssight](https://github.com/sixsechszes-666/ponssight)** - real-time dashboard for the token launchpad on Robinhood Chain. Own indexer over JSON-RPC with websocket tailing, backfill and self-healing cursors. A SQLite store of 665k+ launches with trades, fee accrual and candles, snipe verdicts derived from the early buys in a token's first blocks, and copy-a-launch, which reads the factory config and previews the fee before you commit. FastAPI backend, ten tabs, one static dashboard.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sixsechszes-666/ponssight/main/docs/demo.gif" width="820" alt="ponssight - walking through the launches, volume, snipers, handles, copy-a-launch, wallet and create tabs" />
+</p>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white)
+![EVM](https://img.shields.io/badge/EVM-F16822?style=flat-square&logo=ethereum&logoColor=white)
+![MIT](https://img.shields.io/badge/license-MIT-3DA639?style=flat-square)
 
 **[marketcast](https://github.com/sixsechszes-666/marketcast)** - live Polymarket data into AI-written X posts + auto-rendered 1:1 dashboard videos. Reverse-engineered X GraphQL API over `curl_cffi` (TLS impersonation), resilient multi-LLM layer with fallback, fact-grounding against hallucinated numbers, tests + CI.
 <br/>
@@ -52,6 +66,21 @@
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+**[poly-dashboard](https://github.com/sixsechszes-666/poly-dashboard)** - paste a Polymarket profile link or a trader name and get an animated 1:1 card ready to record: PnL curve, 30-day PnL, volume, best trade, and strengths/weaknesses computed from the data itself rather than hand-tuned thresholds. Three public Polymarket APIs straight from the browser, no backend. **[Live demo →](https://sixsechszes-666.github.io/poly-dashboard/)**
+<br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+
+**[pomelli-webapi](https://github.com/sixsechszes-666/pomelli-webapi)** - async Python client for the Google Pomelli product-photoshoot app, driven over plain HTTP. No browser, no Selenium, no Playwright, no CDP: the whole wizard is six RPC calls, and the signed `authorization` header is reproducible from a cookie jar alone. Typed, tested, CLI included.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![asyncio](https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white)
+![curl_cffi](https://img.shields.io/badge/curl__cffi-073551?style=flat-square&logo=curl&logoColor=white)
+![RPC](https://img.shields.io/badge/RPC%20reverse--engineering-111111?style=flat-square)
 
 **[dota2-multibox-orchestrator](https://github.com/sixsechszes-666/dota2-multibox-orchestrator)** - multi-instance desktop automation. OpenCV template matching, hardware-level input, YAML scenario engine, cross-instance Google Sheets sync.
 <br/>
@@ -81,6 +110,13 @@
 ![Node](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![CloakBrowser](https://img.shields.io/badge/CloakBrowser-111111?style=flat-square)
 ![API](https://img.shields.io/badge/local%20API-1f6feb?style=flat-square)
+
+**[landing-pages](https://github.com/sixsechszes-666/landing-pages)** - four demo projects in pure HTML, CSS and JavaScript, no frameworks and no build step: an education platform, a digital learning resource, a print-ready sachet label and an infosec training system. Hand-written CSS, 15-25 KB per project. **[Hub →](https://sixsechszes-666.github.io/landing-pages/)**
+<br/>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 
 ---
 
@@ -134,12 +170,22 @@
 
 <p>
   <img src="https://img.shields.io/badge/asyncio-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/Telegram%20Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
+</p>
+
+**On-chain**
+
+<p>
+  <img src="https://img.shields.io/badge/JSON--RPC-3C3C3D?style=flat-square&logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web3.py-F16822?style=flat-square&logo=web3dotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white" />
+  <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=ipfs&logoColor=white" />
 </p>
 
 **Computer Vision & Desktop**
