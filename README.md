@@ -39,11 +39,7 @@
 ### 📌 Featured projects
 
 **[ponssight](https://github.com/sixsechszes-666/ponssight)** - real-time dashboard for the token launchpad on Robinhood Chain. Own indexer over JSON-RPC with websocket tailing, backfill and self-healing cursors. A SQLite store of 665k+ launches with trades, fee accrual and candles, snipe verdicts derived from the early buys in a token's first blocks, and copy-a-launch, which reads the factory config and previews the fee before you commit. FastAPI backend, ten tabs, one static dashboard.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sixsechszes-666/ponssight/main/docs/demo.gif" width="820" alt="ponssight - walking through the launches, volume, snipers, handles, copy-a-launch, wallet and create tabs" />
-</p>
-
+<br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
