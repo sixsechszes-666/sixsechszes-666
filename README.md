@@ -55,6 +55,30 @@
 ![multi-LLM](https://img.shields.io/badge/multi--LLM-D97757?style=flat-square)
 ![ffmpeg](https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
 
+**[label-bridge](https://github.com/sixsechszes-666/label-bridge)** - local service that takes a data-labeling card and hands back a structured verdict plus the ready answer for the UI. Card type, media roles and the allowed answer set are inferred from the payload structure, so the model never decides what to label. Animated GIFs are split into labelled contact sheets, the evaluation criteria travel to the prompt verbatim, and prompt templates live on disk with their fingerprint in the cache key. Two model backends behind one interface with automatic failover, and confidence derived from behaviour (swap voting, score gap, identity check) rather than the model's own self-report. Call recordings are analyzed locally, only the transcript reaches the model.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-3776AB?style=flat-square&logo=python&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+**[claude-key-proxy](https://github.com/sixsechszes-666/claude-key-proxy)** - key-pool load balancer in front of Claude Code and opencode. Sticky or LRU key selection, error classification that decides whether a key gets burned or the request retried, and both the Anthropic Messages and the OpenAI-compatible protocols on one port. A dead key is reported as `503 overloaded_error`, so the CLI retries on the next key instead of dropping the user to a login prompt. Offline selftest runs the whole thing against a mock upstream.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic%20API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+**[zai-proxy](https://github.com/sixsechszes-666/zai-proxy)** - bridge between the Anthropic Messages API and a less cooperative backend. Bidirectional translation with real SSE re-framing, repair of `tool_use` / `tool_result` pairing across turns, and a shim mode that renders the tool schemas into the system prompt and parses the `<tool_call>` envelope back out, for a backend that refuses a `tools` array altogether. Test suites drive the full loop over real HTTP.
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic%20API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![SSE](https://img.shields.io/badge/SSE%20streaming-1f6feb?style=flat-square)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
 **[luck-aio-main](https://github.com/sixsechszes-666/luck-aio-main)** - async multi-account browser-automation platform. Bounded-concurrency worker pool, anti-detect, captcha & Cloudflare bypass, on-chain settlement on Solana, live React dashboard.
 <br/>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
